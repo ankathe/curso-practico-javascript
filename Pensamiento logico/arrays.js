@@ -7,3 +7,11 @@ function solution(arraySecreto) {
         console.log("false");
     }   
 }
+
+//METODOS DE ARRAY
+//Join
+
+let numbers = ["abecedario", "manzana", "pedro", "gato"];
+document.write(numbers.length + "</br>");
+let result = numbers.join("</br>")
+document.write(result);
